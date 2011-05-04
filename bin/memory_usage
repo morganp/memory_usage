@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'memory_usage'
+require 'memory_usage_optparse'
+
+
+a = MemoryUsage.new(ARGV)
+a.report
+
